@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Artovision - aviator glasses</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Quicksand:wght@600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/css/intlTelInput.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/intlTelInput.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div
+            class="container-fluid bg-light p-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="row gx-0 d-none d-lg-flex">
+                <div class="col-lg-7 px-5 text-start">
+                    <div
+                        class="h-100 d-inline-flex align-items-center py-3 me-4"
+                    >
+                        <small
+                            class="fa fa-map-marker-alt text-primary me-2"
+                        ></small>
+                        <small
+                            >Postgasse 1, 92637 Weiden in der Oberpfalz</small
+                        >
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center py-3">
+                        <small class="far fa-clock text-primary me-2"></small>
+                        <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+                    </div>
+                </div>
+                <div class="col-lg-5 px-5 text-end">
+                    <div
+                        class="h-100 d-inline-flex align-items-center py-3 me-4"
+                    >
+                        <small class="fa fa-envelope text-primary me-2"></small>
+                        <small>artovision@gmail.com</small>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center">
+                        <a
+                            class="btn btn-sm-square bg-white text-primary me-1"
+                            href="https://www.facebook.com/"
+                            ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a
+                            class="btn btn-sm-square bg-white text-primary me-1"
+                            href="https://x.com/"
+                            ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a
+                            class="btn btn-sm-square bg-white text-primary me-1"
+                            href="https://www.linkedin.com/"
+                            ><i class="fab fa-linkedin-in"></i
+                        ></a>
+                        <a
+                            class="btn btn-sm-square bg-white text-primary me-0"
+                            href="https://www.instagram.com/"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="m-0 text-primary">Artovision</h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+                class="collapse navbar-collapse py-4 py-lg-0"
+                id="navbarCollapse"
+            >
+                <div class="navbar-nav ms-auto">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Home</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">Über uns</a>
+                    <a href="catalog.html" class="nav-item nav-link"
+                        >Nachrichten</a
+                    >
+                    <a href="contact.html" class="nav-item nav-link">Kontakt</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-dark p-0 mb-5">
+            <div class="row g-0 flex-column-reverse flex-lg-row">
+                <div class="col-lg-6 p-0 wow fadeIn" data-wow-delay="0.1s">
+                    <div
+                        class="header-bg h-100 d-flex flex-column justify-content-center p-5"
+                    >
+                        <h1 class="display-4 text-light mb-5">
+                            Aktuelle Nachrichten aus Kunst, Sport und Kultur
+                        </h1>
+                        <div
+                            class="d-flex align-items-center pt-4 animated slideInDown"
+                        >
+                            <a
+                                href="catalog.html"
+                                class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5"
+                                >Mehr Nachrichten</a
+                            >
+                            <button
+                                type="button"
+                                class="btn-play"
+                                data-bs-toggle="modal"
+                                data-src="https://www.youtube.com/embed/JrBXIrMP-ME?si=DsfgnWUFVQPg79NL"
+                                data-bs-target="#videoModal"
+                            >
+                                <span></span>
+                            </button>
+                            <h6 class="text-white m-0 ms-4 d-none d-sm-block">
+                                Video ansehen
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel header-carousel">
+                        <div class="owl-carousel-item">
+                            <img
+                                class="img-fluid"
+                                src="img/carousel-1.jpg"
+                                alt="Kunstgalerie"
+                            />
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img
+                                class="img-fluid"
+                                src="img/carousel-2.jpg"
+                                alt="Sportereignis"
+                            />
+                        </div>
+                        <div class="owl-carousel-item">
+                            <img
+                                class="img-fluid"
+                                src="img/carousel-3.jpg"
+                                alt="Kulturelle Veranstaltung"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Video Modal Start -->
+        <div
+            class="modal modal-video fade"
+            id="videoModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="exampleModalLabel">
+                            Youtube Video
+                        </h3>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe
+                                class="embed-responsive-item"
+                                src=""
+                                id="video"
+                                allowfullscreen
+                                allowscriptaccess="always"
+                                allow="autoplay"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Video Modal End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <p>
+                            <span class="text-primary me-2">#</span>Willkommen
+                            auf Artovision
+                        </p>
+                        <h1 class="display-5 mb-4">
+                            Warum Sie sich für
+                            <span class="text-primary"
+                                >die neuesten Kunst- und Sportnachrichten</span
+                            >
+                            interessieren sollten
+                        </h1>
+                        <p class="mb-4">
+                            Entdecken Sie die neuesten Nachrichten aus der
+                            Kunst-, Sport- und Kulturszene. Egal, ob Sie an
+                            exklusiven Ausstellungen, beeindruckenden
+                            sportlichen Leistungen oder den aktuellen
+                            kulturellen Ereignissen interessiert sind – wir
+                            bieten Ihnen alles, was Sie wissen müssen. Unser
+                            Fokus liegt darauf, Ihnen die spannendsten und
+                            relevantesten Entwicklungen aus der Welt der Kunst,
+                            des Sports und der Kultur näherzubringen.
+                        </p>
+                        <h5 class="mb-3">
+                            <i
+                                class="far fa-check-circle text-primary me-3"
+                            ></i>
+                            Exklusive Kunstnachrichten
+                        </h5>
+                        <h5 class="mb-3">
+                            <i
+                                class="far fa-check-circle text-primary me-3"
+                            ></i>
+                            Spannende Sportereignisse
+                        </h5>
+                        <h5 class="mb-3">
+                            <i
+                                class="far fa-check-circle text-primary me-3"
+                            ></i>
+                            Aktuelle Kulturtrends
+                        </h5>
+                        <h5 class="mb-3">
+                            <i
+                                class="far fa-check-circle text-primary me-3"
+                            ></i>
+                            Fesselnde Interviews und Berichte
+                        </h5>
+                        <a
+                            class="btn btn-primary py-3 px-5 mt-3"
+                            href="catalog.html"
+                            >Jetzt entdecken</a
+                        >
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="img-border">
+                            <img class="img-fluid" src="img/about.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Facts Start -->
+        <div
+            class="container-xxl bg-primary facts my-5 py-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-4">
+                    <div
+                        class="col-md-6 col-lg-3 text-center wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <i
+                            class="fa fa-paint-brush fa-3x text-primary mb-3"
+                        ></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">
+                            4122
+                        </h1>
+                        <p class="text-white mb-0">Kunstwerke Berichtet</p>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-3 text-center wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <i class="fa fa-users fa-3x text-primary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">
+                            3245
+                        </h1>
+                        <p class="text-white mb-0">Zufriedene Leser</p>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-3 text-center wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <i class="fa fa-trophy fa-3x text-primary mb-3"></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">
+                            943
+                        </h1>
+                        <p class="text-white mb-0">Sportliche Erfolge</p>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-3 text-center wow fadeIn"
+                        data-wow-delay="0.7s"
+                    >
+                        <i
+                            class="fa fa-theater-masks fa-3x text-primary mb-3"
+                        ></i>
+                        <h1 class="text-white mb-2" data-toggle="counter-up">
+                            933
+                        </h1>
+                        <p class="text-white mb-0">Kulturelle Events</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-6">
+                        <p>
+                            <span class="text-primary me-2">#</span>Unsere
+                            Services
+                        </p>
+                        <h1 class="display-5 mb-0">
+                            Exklusive Nachrichten zu
+                            <span class="text-primary"
+                                >Kunst, Sport und Kultur</span
+                            >
+                        </h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <div
+                            class="bg-primary h-100 d-flex align-items-center py-4 px-4 px-sm-5"
+                        >
+                            <i class="fa fa-3x fa-mobile-alt text-white"></i>
+                            <div class="ms-4">
+                                <p class="text-white mb-0">
+                                    Kontaktieren Sie uns für mehr Infos
+                                </p>
+                                <h2 class="text-white mb-0">+4996120096960</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gy-5 gx-4">
+                    <div
+                        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <img
+                            class="img-fluid mb-3"
+                            src="img/icon/icon-2.png"
+                            alt="Icon"
+                        />
+                        <h5 class="mb-3">Aktuelle Kunstnachrichten</h5>
+                        <span
+                            >Bleiben Sie informiert über die neuesten
+                            Entwicklungen in der Kunstwelt, von Ausstellungen
+                            bis zu Trends.</span
+                        >
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <img
+                            class="img-fluid mb-3"
+                            src="img/icon/icon-3.png"
+                            alt="Icon"
+                        />
+                        <h5 class="mb-3">Sportberichterstattung</h5>
+                        <span
+                            >Erleben Sie fesselnde Berichterstattung und
+                            Analysen zu den größten sportlichen Ereignissen
+                            weltweit.</span
+                        >
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <img
+                            class="img-fluid mb-3"
+                            src="img/icon/icon-4.png"
+                            alt="Icon"
+                        />
+                        <h5 class="mb-3">Kulturhighlights</h5>
+                        <span
+                            >Erforschen Sie die neuesten kulturellen
+                            Veranstaltungen, Theaterstücke und Festivals aus
+                            aller Welt.</span
+                        >
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <img
+                            class="img-fluid mb-3"
+                            src="img/icon/icon-5.png"
+                            alt="Icon"
+                        />
+                        <h5 class="mb-3">Interaktive Interviews</h5>
+                        <span
+                            >Lesen Sie exklusive Interviews mit Künstlern,
+                            Sportlern und Kulturpersönlichkeiten.</span
+                        >
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <img
+                            class="img-fluid mb-3"
+                            src="img/icon/icon-6.png"
+                            alt="Icon"
+                        />
+                        <h5 class="mb-3">Tägliche Updates</h5>
+                        <span
+                            >Wir bieten tägliche Updates zu den neuesten
+                            Ereignissen in der Kunst-, Sport- und
+                            Kulturszene.</span
+                        >
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <img
+                            class="img-fluid mb-3"
+                            src="img/icon/icon-7.png"
+                            alt="Icon"
+                        />
+                        <h5 class="mb-3">Einfache Navigation</h5>
+                        <span
+                            >Unsere Website ist benutzerfreundlich und
+                            ermöglicht es Ihnen, schnell und einfach die
+                            neuesten Artikel zu finden.</span
+                        >
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <img
+                            class="img-fluid mb-3"
+                            src="img/icon/icon-8.png"
+                            alt="Icon"
+                        />
+                        <h5 class="mb-3">Schnelle Ladezeiten</h5>
+                        <span
+                            >Genießen Sie schnelle Ladezeiten, um die neuesten
+                            Nachrichten ohne Verzögerung zu lesen.</span
+                        >
+                    </div>
+                    <div
+                        class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <img
+                            class="img-fluid mb-3"
+                            src="img/icon/icon-9.png"
+                            alt="Icon"
+                        />
+                        <h5 class="mb-3">Exklusive Inhalte</h5>
+                        <span
+                            >Profitieren Sie von exklusiven Inhalten, die Sie
+                            nur auf unserer Seite finden können.</span
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Contact Info Start -->
+        <div
+            class="container-xxl bg-primary visiting-hours my-5 py-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                        <h1 class="display-6 text-white mb-5">
+                            Kontaktinformationen
+                        </h1>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Postgasse 1,92637 Weiden in der
+                                        Oberpfalz
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p class="mb-2">+4996120096960</p>
+                                        <p class="mb-0">Postgasse 1,</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Info End -->
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <p>
+                            <span class="text-primary me-2">#</span>Kontaktiere
+                            Uns
+                        </p>
+                        <h1 class="display-5 mb-4">
+                            Hast du eine Frage? Kontaktiere uns!
+                        </h1>
+                        <form action="thanks.html" method="GET">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control bg-light border-0"
+                                            id="name"
+                                            placeholder="Dein Name"
+                                            required
+                                        />
+                                        <label for="name">Dein Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="email"
+                                            class="form-control bg-light border-0"
+                                            id="email"
+                                            placeholder="Deine E-Mail"
+                                            required
+                                        />
+                                        <label for="email">Deine E-Mail</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <select
+                                            class="form-control bg-light border-0"
+                                            name="Service-Typ"
+                                            required
+                                        >
+                                            <option value="deportes">
+                                                Sport
+                                            </option>
+                                            <option value="arte">Kunst</option>
+                                            <option value="cultura">
+                                                Kultur
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input
+                                            class="form-control bg-light border-0"
+                                            required
+                                            style="width: 100% !important"
+                                            type="text"
+                                            inputmode="numeric"
+                                            pattern="^[0-9]+$"
+                                            class="form-control"
+                                            id="phone"
+                                            placeholder="Telefonnummer"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea
+                                            class="form-control bg-light border-0"
+                                            placeholder="Hinterlasse eine Nachricht"
+                                            id="message"
+                                            style="height: 100px"
+                                            required
+                                        ></textarea>
+                                        <label for="message">Nachricht</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                    >
+                                        Nachricht senden
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- News Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <h1
+                    class="display-5 text-center mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    Unsere neuesten Nachrichten
+                </h1>
+                <div
+                    class="owl-carousel testimonial-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid p-2 mx-auto mb-4"
+                            style="min-width: 250px"
+                            src="img/news-1.jpg"
+                            style="width: 100px; height: 100px"
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <h5 class="mb-1">
+                                Die neuesten Trends der Kunstwelt
+                            </h5>
+                            <p>
+                                In der Welt der Kunst gibt es stets neue,
+                                aufregende Entwicklungen. Entdecken Sie die
+                                aktuellsten Ausstellungen und die Kunstwerke,
+                                die derzeit die Diskussion dominieren.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid p-2 mx-auto mb-4"
+                            style="min-width: 250px"
+                            src="img/news-2.jpg"
+                            style="width: 100px; height: 100px"
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <h5 class="mb-1">
+                                Das Sportjahr 2025: Ein Ausblick
+                            </h5>
+                            <p>
+                                Das Jahr 2025 verspricht spannende
+                                Sportereignisse. Lesen Sie mehr über die
+                                kommenden Wettbewerbe und die wichtigsten
+                                Athleten, die die Weltbühne betreten werden.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img
+                            class="img-fluid p-2 mx-auto mb-4"
+                            style="min-width: 250px"
+                            src="img/news-3.jpg"
+                            style="width: 100px; height: 100px"
+                        />
+                        <div class="testimonial-text rounded text-center p-4">
+                            <h5 class="mb-1">
+                                Kulturelle Erneuerung: Die besten Events 2025
+                            </h5>
+                            <p>
+                                2025 wird ein Jahr voller kultureller
+                                Höhepunkte. Vom Theater bis zur Musik finden Sie
+                                hier die wichtigsten kulturellen
+                                Veranstaltungen, die Sie nicht verpassen
+                                sollten.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- News End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Adresse</h5>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>
+                            Postgasse 1,92637 Weiden in der Oberpfalz
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+4996120096960
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i>
+                            artovision@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Schnellzugriffe</h5>
+                        <a class="btn btn-link" href="index.html">Startseite</a>
+                        <a class="btn btn-link" href="about.html">Über uns</a>
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Allgemeine Geschäftsbedingungen</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Unterstützung</a
+                        ><a class="btn btn-link" href="cookie-policy.html"
+                            >Cookie-Richtlinie</a
+                        >
+                        <a class="btn btn-link" href="disclaimer.html"
+                            >Haftungsausschluss</a
+                        >
+                        <a class="btn btn-link" href="business-model.html"
+                            >Geschäftsmodell</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Beliebte Links</h5>
+                        <a class="btn btn-link" href="catalog.html"
+                            >Unsere Kunst</a
+                        >
+                        <a class="btn btn-link" href="contact.html">Kontakt</a>
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Allgemeine Geschäftsbedingungen</a
+                        >
+                        <a class="btn btn-link" href="cookie-policy.html"
+                            >Cookie-Richtlinie</a
+                        >
+                        <a class="btn btn-link" href="disclaimer.html"
+                            >Haftungsausschluss</a
+                        >
+                        <a class="btn btn-link" href="business-model.html"
+                            >Geschäftsmodell</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-light mb-4">Newsletter</h5>
+                        <p>
+                            Bleiben Sie auf dem Laufenden über die neuesten
+                            Trends in der Kunst, Kultur und im Sport.
+                        </p>
+                        <div
+                            class="position-relative mx-auto"
+                            style="max-width: 400px"
+                        >
+                            <form action="thanks.html" method="GET">
+                                <input
+                                    class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                                    type="text"
+                                    placeholder="Ihre E-Mail"
+                                    required
+                                />
+                                <button
+                                    type="submit"
+                                    class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                                >
+                                    Anmelden
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center; font-size: 24px; color: #333">
+                    Zustimmung zu Cookies
+                </h2>
+            </div>
+
+            <div class="data">
+                <p style="font-size: 16px; color: #555">
+                    Um dir die bestmögliche Erfahrung auf unserer Website zu
+                    bieten, verwenden wir Cookies. Diese helfen uns, dir
+                    aktuelle Nachrichten und Ereignisse aus der Welt der Kunst,
+                    des Sports und der Kultur zu präsentieren. Weitere Details
+                    findest du in unserer
+                    <a
+                        href="datenschutz.html"
+                        style="
+                            color: #1e90ff;
+                            text-decoration: none;
+                            font-weight: bold;
+                        "
+                        >Datenschutzerklärung</a
+                    >
+                    oder der
+                    <a
+                        href="cookie-richtlinie.html"
+                        style="
+                            color: #1e90ff;
+                            text-decoration: none;
+                            font-weight: bold;
+                        "
+                        >Cookie-Richtlinie</a
+                    >.
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button
+                    class="cookie-button"
+                    id="acceptBtn"
+                    style="
+                        background-color: #4caf50;
+                        color: white;
+                        border: none;
+                        padding: 10px 20px;
+                        cursor: pointer;
+                        font-size: 16px;
+                    "
+                >
+                    Akzeptieren
+                </button>
+                <button
+                    class="cookie-button"
+                    id="declineBtn"
+                    style="
+                        background-color: #f44336;
+                        color: white;
+                        border: none;
+                        padding: 10px 20px;
+                        cursor: pointer;
+                        font-size: 16px;
+                    "
+                >
+                    Ablehnen
+                </button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <script>
+            const input = document.querySelector("#phone");
+            window.intlTelInput(input, {
+                loadUtils: () =>
+                    import(
+                        "https://cdn.jsdelivr.net/npm/intl-tel-input@25.2.0/build/js/utils.js"
+                    ),
+            });
+        </script>
+    </body>
+</html>
